@@ -39,3 +39,11 @@ First, install your `npm` dependencies, in root project folder:
 cd sst-demo
 npm i
 ```
+
+## References
+
+1. SST | Overview - https://docs.serverless-stack.com/constructs
+2. SST | App - https://docs.serverless-stack.com/constructs/App
+3. SST | Stack - https://docs.serverless-stack.com/constructs/Stack
+4. SST | Function - https://docs.serverless-stack.com/constructs/Function
+5. AWS CDK 2.27.0 | API Reference - https://docs.aws.amazon.com/cdk/api/v2/docs/aws-construct-library.html
