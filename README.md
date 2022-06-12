@@ -2,14 +2,14 @@
 
 This is a collection of various `serverless-stack` demos, to showcase useful use-cases in building most common forms of CloudFormation.
 
-> The updates for this project will be irregular. When updated, we start using the CLI `npx sst update 1.2.20` - then follow the advised `CHANGELOG` notes & upgrade steps.
-
 ## What are the latest SST dependencies?
 
 <p align="center">
   <img alt="@serverless-stack/cli" src="https://img.shields.io/npm/v/@serverless-stack/cli?label=%40serverless-stack%2Fcli&style=flat-square" />
   <img alt="@serverless-stack/resources" src="https://img.shields.io/npm/v/@serverless-stack/resources?label=%40serverless-stack%2Fresources&style=flat-square" />
 </p>
+
+> The updates for this project will be irregular. When updated, we start using the CLI `npx sst update 1.2.20` - then follow the advised `CHANGELOG` notes & upgrade steps.
 
 ## How does this project work?
 
