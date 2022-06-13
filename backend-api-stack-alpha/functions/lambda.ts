@@ -10,7 +10,7 @@ export const handler: APIGatewayProxyHandlerV2 = async (
     statusCode: 200,
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      message: `Hello there! Your request was received at ${now}.`,
+      message: `This is backend-api-stack-alpha. Your request was received at ${now}.`,
       timestamp: now,
     }),
   };
