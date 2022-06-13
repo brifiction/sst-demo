@@ -11,6 +11,8 @@ This is a collection of various `serverless-stack` demos, to showcase useful use
 
 > The updates for this project will be irregular. When updated, we start using the CLI `npx sst update 1.2.20` - then follow the advised `CHANGELOG` notes & upgrade steps.
 
+**Will there be vulnerabilities discovered in SST peer dependencies?** Yes, as these discoveries does occur, and it's our job to identify & patch them - if found, please report them to the [`serverless-stack` community](https://github.com/serverless-stack/serverless-stack).
+
 For more information, see `package.json`, `tsconfig.json` and `sst.json` files.
 
 ## How does this project work?
