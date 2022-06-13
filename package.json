@@ -3,9 +3,9 @@
   "version": "1.0.0-alpha",
   "private": true,
   "scripts": {
-    "start": "sst start",
+    "start": "sst start --outputs-file outputs.json",
     "build": "sst build",
-    "deploy": "sst deploy --stage=production",
+    "deploy": "sst deploy --stage=production --outputs-file outputs.json",
     "remove": "sst remove",
     "console": "sst console",
     "typecheck": "tsc --noEmit",
