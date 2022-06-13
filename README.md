@@ -26,13 +26,15 @@ In AWS CloudFormation, a CloudFormation build is can build one Stack with N Reso
 
 Now, let's take a look at the folders:
 
-1. `backend-api-stack`
+1. `backend-api-stack-alpha`
+1. `backend-api-stack-beta`
 
 These folders can be defined as your workspace(s), as seen in `package.json` file and example below:
 
 ```
   "workspaces": [
-    "backend-api-stack",
+    "backend-api-stack-alpha",
+    "backend-api-stack-beta",
     "backend-database-only-stack",
     "backend-s3-only-stack"
   ]
