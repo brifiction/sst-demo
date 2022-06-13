@@ -1,8 +1,8 @@
 import { StackContext, Api } from "@serverless-stack/resources";
 
-export function ApiStack({ stack }: StackContext) {
+export function BetaApiStack({ stack }: StackContext) {
   stack.setDefaultFunctionProps({
-    srcPath: "backend-api-stack",
+    srcPath: "backend-api-stack-beta",
   });
 
   const api = new Api(stack, "api", {

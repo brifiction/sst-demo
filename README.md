@@ -11,6 +11,8 @@ This is a collection of various `serverless-stack` demos, to showcase useful use
 
 > The updates for this project will be irregular. When updated, we start using the CLI `npx sst update 1.2.20` - then follow the advised `CHANGELOG` notes & upgrade steps.
 
+For more information, see `package.json`, `tsconfig.json` and `sst.json` files.
+
 ## How does this project work?
 
 In AWS CloudFormation, a CloudFormation build is can build one Stack with N Resources - and you can build N Stack(s) at any time. Thus, the association 1:N, 1 Stack can have many Resources.

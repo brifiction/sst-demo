@@ -22,6 +22,7 @@
     "vitest": "^0.14.2"
   },
   "workspaces": [
-    "backend-api-stack"
+    "backend-api-stack-alpha",
+    "backend-api-stack-beta"
   ]
 }

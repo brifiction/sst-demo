@@ -1,0 +1,19 @@
+{
+  "name": "@sst-demo/backend-api-stack-beta",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1152.0",
+    "luxon": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.100",
+    "@types/luxon": "^2.3.2",
+    "c8": "^7.11.3",
+    "vitest": "^0.14.2"
+  }
+}
