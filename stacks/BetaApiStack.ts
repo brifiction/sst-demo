@@ -6,10 +6,16 @@ export function BetaApiStack({ stack }: StackContext) {
   });
 
   const api = new Api(stack, "api", {
+    // defaults: {
+    //   function: {
+    //     srcPath: "backend-api-stack-beta",
+    //   },
+    // },
     routes: {
       "GET /": "functions/lambda.handler",
     },
   });
+
   stack.addOutputs({
     ApiEndpoint: api.url,
   });
