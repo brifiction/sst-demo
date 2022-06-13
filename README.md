@@ -9,6 +9,11 @@ This is a collection of various `serverless-stack` demos, to showcase useful use
   <img alt="@serverless-stack/resources" src="https://img.shields.io/npm/v/@serverless-stack/resources?label=%40serverless-stack%2Fresources&style=flat-square" />
 </p>
 
+<p align="center">
+  <img alt="@serverless-stack/cli snyk" src="https://img.shields.io/snyk/vulnerabilities/npm/@serverless-stack/cli?style=flat-square" />
+  <img alt="@serverless-stack/resources snyk" src="https://img.shields.io/snyk/vulnerabilities/npm/@serverless-stack/resources?style=flat-square" />
+</p>
+
 > The updates for this project will be irregular. When updated, we start using the CLI `npx sst update 1.2.20` - then follow the advised `CHANGELOG` notes & upgrade steps.
 
 **Will there be vulnerabilities discovered in SST peer dependencies?** Yes, as these discoveries does occur, and it's our job to identify & patch them - if found, please report them to the [`serverless-stack` community](https://github.com/serverless-stack/serverless-stack).
