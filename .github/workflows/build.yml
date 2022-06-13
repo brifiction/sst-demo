@@ -1,5 +1,5 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# NOTICE: These workflow steps are for demo purposes only.
+# Node versions: Add node versions, compatible with your build - for example, if using `@tsconfig/node16`.
 
 name: SST Build & Test (with code coverage)
 
@@ -25,6 +25,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npm i
+      - run: npm ci
       - run: npm run build
       - run: npm run test:coverage

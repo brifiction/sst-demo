@@ -31,7 +31,7 @@ These folders can be defined as your workspace(s), as seen in `package.json` fil
   ]
 ```
 
-Just like a sub-module, you can install dependencies you need in these workspaces.
+Just like a sub-module, you can install dependencies you need in these workspaces. For more information, see https://docs.npmjs.com/cli/v8/using-npm/workspaces.
 
 ## Getting Started
 
